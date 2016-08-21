@@ -126,6 +126,7 @@
                     $container.removeClass('is-active');
                 }
             }
+            $input.change();
         },
 
         setDisabled: function (val) {
